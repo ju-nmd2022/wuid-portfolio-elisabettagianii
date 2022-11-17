@@ -40,3 +40,18 @@ h1 span{
 display: flex;
 gap: 10px;
 }
+.compilation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 10rem);
+  
+    column-gap: 15rem;
+    row-gap: 5rem;
+  }
+  .Work-1,
+.Work-2,
+.Work-3,
+.Work-4,
+.Work-5 {
+  text-align:center;
+  vertical-align: middle;
+  line-height: 10px;}
